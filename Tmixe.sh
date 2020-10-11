@@ -6,29 +6,51 @@ termux-setup-storage
 cd
 cd ..
 cd  usr
-cd  etc
-echo -e "\e[32mdo u want to remove motd y/n\e[0m";
-read -p 'type y/n' userinput1;
+
+
+echo -e "\e[36mauthor : spidey-fb \e[0m";
+read -p 'do u want to remove motd y/n' userinput1;
 #
 if [ "${userinput1:-}" = "y" ]
 then
-	rm motd 
+	cd
 fi
 if [ "${userinput1:-}" = "y" ]
 then
+	cd  ../usr/etc
+fi
+if [ "${userinput1:-}" = "y " ]
+then
 	touch  motd
 fi
-
-pkg  install vim
-
-echo -e "\e[95mthx,bro support us on YouTube hackersxone
-now type the commands as u watched our video on YouTube
-if u have not watched it the. u can't understand 
-thx \e[0m";
+if [ "${userinput1:-}" = "y " ]
+then
+	vim  motd
+fi
 if [ "${userinput1:-}" = "n" ]
 then
 	echo -e "\e[33mstopped\e[0m";
 fi
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
