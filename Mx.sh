@@ -1,6 +1,6 @@
 
 
-read -p 'y' userinput1;
+read -p 'do u want to remove motd y/n: ' userinput1;
 #
 if [ "${userinput1:-}" = "y " ]
 then
