@@ -18,7 +18,9 @@ if [ "${userinput1:-}" = "y" ]
 then
 	touch  motd
 fi
+
 pkg  install vim
+
 echo -e "\e[95mthx,bro support us on YouTube hackersxone
 now type the commands as u watched our video on YouTube
 if u have not watched it the. u can't understand 
@@ -27,3 +29,11 @@ if [ "${userinput1:-}" = "n" ]
 then
 	echo -e "\e[33mstopped\e[0m";
 fi
+
+
+
+
+
+
+	
+
