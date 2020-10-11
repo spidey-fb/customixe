@@ -1,9 +1,9 @@
 # customixe
-Add name to ur termux 
+#Add name to ur termux 
 
 pkg  update -y && pkg upgrade -y
 termux-setup-storage
-cd  ..
+cd
 cd  usr
 cd  etc
 echo -e "\e[32mdo u want to remove motd y/n\e[0m";
