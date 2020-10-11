@@ -56,11 +56,11 @@ fi
 
 	
 
-cd
-cd  ..
-cd  usr
-cd  etc
-rm  motd
-touch  motd
-vim  motd
+
+
+
+
+
+
+
 
