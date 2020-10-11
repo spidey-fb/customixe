@@ -29,7 +29,7 @@ then
 
 
 
-
+        rm motd 
 
 
 	touch  motd
