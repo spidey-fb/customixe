@@ -18,27 +18,27 @@ then
 
 	cd
 
-fi
 
-if [ "${userinput1:-}" = "y" ]
 
-then
+
+
+
 
 	cd  ../usr/etc
 
-fi
 
-if [ "${userinput1:-}" = "y " ]
 
-then
+
+
+
 
 	touch  motd
 
-fi
 
-if [ "${userinput1:-}" = "y " ]
 
-then
+
+
+
 
 	vim  motd
 
